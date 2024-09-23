@@ -8,10 +8,10 @@ Technologies used include Python, Amazon Web Services (AWS), Apache Kafka, Glue,
 ## Architecture
 The architecture involves:
 
-Kafka Producer: Streams real-time stock market data to Kafka.
-Kafka Consumer: Reads data from Kafka and stores it in AWS S3.
-AWS Glue & Athena: Used for data cataloging and querying stored data in S3.
-EC2 Instances: Hosts Kafka and the data pipeline on AWS infrastructure
+1.Kafka Producer: Streams real-time stock market data to Kafka.
+2. Kafka Consumer: Reads data from Kafka and stores it in AWS S3.
+3. AWS Glue & Athena: Used for data cataloging and querying stored data in S3.
+4. EC2 Instances: Hosts Kafka and the data pipeline on AWS infrastructure
 
 ## Technology Used
 - Programming Language - Python
